@@ -1,8 +1,7 @@
-let saludos = ("hola Saidy")
-let mensaje1 = ("Cómo estás?")
-let mensaje2 = ("que estás haciendo?")
-let mensaje3 = ("que tengas una linda noche")
-
+let saludos = "hola Saidy :)"
+let mensaje1 = "¿Cómo estás?"
+let mensaje2 = "¿que estás haciendo?"
+let mensaje3 = "que tengas una bonita noche :)"
 let rsthtml = document.getElementById("rst")
 let continthtml = document.querySelector(".contint")
 let btnsaludo = document.getElementById("saludo")
@@ -22,7 +21,7 @@ btnmensaje2.addEventListener("click", function(){
     actualizarContenido(mensaje2)
 })
 btnmensaje3.addEventListener("click", function(){
-    actualizarContenido(msg3html)
+    actualizarContenido(mensaje3)
 })
 btnsaludo.addEventListener("click", function(){
     actualizarContenido(saludos)
@@ -30,13 +29,3 @@ btnsaludo.addEventListener("click", function(){
 rsthtml.addEventListener("click", function(){
     actualizarContenido(msgoriginal)
 } )
-
-
-
-// let saludo1html = document.getElementsById("saludo1")
-// let msg1html = document.getElementsById("msg11")
-// let msg2html = document.getElementsById("msg12")
-// let msg3html = document.getElementsById("msg13")
-
-
-
