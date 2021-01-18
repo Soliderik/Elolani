@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( rgba(13, 38, 109, 0.795), black 40%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    padding-top: 4.5rem;
+}
+
+.cabecera {
+    color: aquamarine;
+    background-color: rgb(13, 38, 109);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    margin: 0 auto;
+}
+
+.cajap {
+    color: seashell;
+    margin: 2rem;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100px;
+    /* para la propiedad sticky se necesitan a huevo las 2 position una altura y ancho */
+    position: -webkit-sticky;
+    position: sticky;
+    height: 100px;
+    top: 70px;
+}
+
+
+.subm {
+    width: 100%;
+    border: solid rgba(137, 43, 226, 0.26) 5px;
+    padding: 10px 20px;
+    background-color: rgba(173, 47, 231, 0.212);
+    border-radius: 6px;
+    text-decoration: none;
+    }
+
+.subm:not(:last-child) {
+    margin-bottom: 40px;
+}
+.subm:hover {
+    background-color: rgba(0,150,0,.2);
+}
+
+.subm:visited {
+    color: seashell;
+}
+
+.contint {
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.contint p:first-child {
+    margin-top: 0;
+}
+
+@media all and (max-width: 600px) {
+
+    .menu {
+        top: 80px;
+    }
+
+}
+
