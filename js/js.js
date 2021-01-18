@@ -1,7 +1,7 @@
-let saludos = saludo1html
-let mensaje1 = msg1html
-let mensaje2 = msg2html
-let mensaje3 = msg3html
+let saludos = ("hola Saidy")
+let mensaje1 = ("Cómo estás?")
+let mensaje2 = ("que estás haciendo?")
+let mensaje3 = ("que tengas una linda noche")
 
 let rsthtml = document.getElementById("rst")
 let continthtml = document.querySelector(".contint")
@@ -33,10 +33,10 @@ rsthtml.addEventListener("click", function(){
 
 
 
-let saludo1html = document.getElementsById("saludo1")
-let msg1html = document.getElementsById("msg11")
-let msg2html = document.getElementsById("msg12")
-let msg3html = document.getElementsById("msg13")
+// let saludo1html = document.getElementsById("saludo1")
+// let msg1html = document.getElementsById("msg11")
+// let msg2html = document.getElementsById("msg12")
+// let msg3html = document.getElementsById("msg13")
 
 
 
