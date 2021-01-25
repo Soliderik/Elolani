@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -65,8 +67,8 @@ body {
 }
 .bg {
     background-image: url(../img/pizzarron.jpg);
-    max-width: 70vh;
-    min-width: 30vh;
+    max-width: 60vh;
+    min-width: 60vh;
     min-height: 70vh;
     background-repeat: no-repeat;
 }
@@ -86,12 +88,20 @@ body {
         top: 80px;
     }
 
+    .bg {
+        max-width: 30vh;
+        min-width: 30vh;
+        min-height: 70vh;
+        background-repeat: no-repeat;
+    }
+
 }
 
 .mensajep {
     font-size: 1.5rem;
     padding-left: .5rem;
     padding-right: .5rem;
-    
+    font-family: 'Atma', cursive;
+
 }
 
