@@ -29,7 +29,8 @@ body {
     color: seashell;
     margin: 2rem;
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    width: 50vh;   
 }
 
 .menu {
