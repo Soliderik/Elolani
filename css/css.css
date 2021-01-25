@@ -29,6 +29,7 @@ body {
     color: seashell;
     margin: 2rem;
     display: flex;
+    justify-content: center;    
 }
 
 .menu {
@@ -62,6 +63,14 @@ body {
 .subm:visited {
     color: seashell;
 }
+.bg {
+    background-image: url(../img/pizzarron.jpg);
+    max-width: 70vh;
+    min-width: 70vh;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
 .contint {
     margin: 0 10px;
@@ -78,5 +87,11 @@ body {
         top: 80px;
     }
 
+}
+
+.mensajep {
+    font-size: 3rem;
+    padding-left: 1rem;
+    
 }
 

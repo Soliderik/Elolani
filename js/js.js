@@ -29,3 +29,25 @@
 // rsthtml.addEventListener("click", function(){
 //     actualizarContenido(msgoriginal)
 // } )
+
+var typeWriter = document.getElementById('type-writer');
+var dataText = typeWriter.getAttribute('data-text');
+
+var count = 0;
+var dataTextLength = dataText.length;
+
+var setText = function () {
+  setTimeout(function () {
+    typeWriter.textContent = typeWriter.textContent + dataText.charAt(count);
+    count++;
+    if (count <= dataTextLength) {
+      setText()
+    }
+  }, 80, 
+  cursor= '_');
+}
+
+window.onload = () => {
+  setText()
+}
+
