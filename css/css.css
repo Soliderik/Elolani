@@ -66,7 +66,7 @@ body {
 .bg {
     background-image: url(../img/pizzarron.jpg);
     max-width: 70vh;
-    min-width: 20vh;
+    min-width: 30vh;
     min-height: 80vh;
     background-repeat: repeat-x;
 }
