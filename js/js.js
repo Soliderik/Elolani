@@ -43,8 +43,7 @@ var setText = function () {
     if (count <= dataTextLength) {
       setText()
     }
-  }, 80, 
-  cursor= '_');
+  }, 80);
 }
 
 window.onload = () => {
