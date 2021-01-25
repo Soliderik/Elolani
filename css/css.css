@@ -68,7 +68,8 @@ body {
     max-width: 70vh;
     min-width: 30vh;
     min-height: 80vh;
-    background-repeat: repeat-x;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .contint {
