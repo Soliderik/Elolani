@@ -65,8 +65,8 @@ body {
 }
 .bg {
     background-image: url(../img/pizzarron.jpg);
-    max-width: 50vh;
-    min-width: 50vh;
+    max-width: 70vh;
+    min-width: 20vh;
     min-height: 80vh;
     background-repeat: repeat-x;
 }
@@ -91,6 +91,7 @@ body {
 .mensajep {
     font-size: 1.5rem;
     padding-left: .5rem;
+    padding-right: .5rem;
     
 }
 
