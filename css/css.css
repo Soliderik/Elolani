@@ -67,9 +67,9 @@ body {
 }
 .bg {
     background-image: url(../img/pizzarron.jpg);
-    max-width: 60vh;
-    min-width: 60vh;
-    min-height: 70vh;
+    max-width: 70vh;
+    min-width: 50vh;
+    min-height: 50vh;
     background-repeat: no-repeat;
 }
 
@@ -89,7 +89,7 @@ body {
     }
 
     .bg {
-        max-width: 30vh;
+        max-width: 50vh;
         min-width: 30vh;
         min-height: 70vh;
         background-repeat: no-repeat;
